@@ -4,6 +4,7 @@
   "description": "Sorts and aligns import statements on js or ts files",
   "version": "0.2.1",
   "publisher": "pitermarx",
+  "homepage": "https://github.com/pitermarx/auto-format-imports/",
   "engines": {
     "vscode": "^1.0.0"
   },
