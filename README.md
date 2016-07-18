@@ -1,4 +1,4 @@
-# auto-format-imports
+# [Import statement formatter](https://github.com/pitermarx/auto-format-imports/)
 
 A naive way to format the import statements on a js or ts file
 
