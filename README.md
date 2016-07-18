@@ -1,4 +1,4 @@
-# auto-format-imports README
+# auto-format-imports
 
 A naive way to format the import statements on a js or ts file
 
