@@ -16,3 +16,6 @@ Sorts and adds a padding to the format imports
 
 ### 0.2.1
 * Improvements on spacing on import statements
+
+##### Notes
+Read [this](https://code.visualstudio.com/docs/tools/vscecli) for publish
