@@ -1,0 +1,42 @@
+{
+  "name": "auto-format-imports",
+  "displayName": "Auto Format Import",
+  "description": "Sorts and aligns import statements on js or ts files",
+  "version": "0.2.1",
+  "publisher": "pitermarx",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "javascript",
+    "import",
+    "format"
+  ],
+  "activationEvents": [
+    "onCommand:extension.format-imports"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.format-imports",
+        "title": "Format imports"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "tslint": "3.11.0",
+    "vscode": "^0.11.0"
+  },
+  "dependencies": {
+    "typescript": "^1.8.5"
+  }
+}
